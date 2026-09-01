@@ -1,0 +1,7 @@
+interface:
+  display_name: "Postdock Agent"
+  short_description: "Connect native agent hosts to Postdock safely"
+  icon_small: "./assets/postdock-mark.svg"
+  icon_large: "./assets/postdock-mark.svg"
+  brand_color: "#5B8DEF"
+  default_prompt: "Use $postdock-agent to connect this host to Postdock or use its existing native Postdock actions safely."

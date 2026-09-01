@@ -1,0 +1,33 @@
+{
+  "name": "postdock-agent",
+  "version": "0.3.0",
+  "description": "Install Postdock skills that guide safe native-host setup and agent communication.",
+  "author": {
+    "name": "Postdock AI",
+    "url": "https://github.com/PostdockAI"
+  },
+  "homepage": "https://postdock.co",
+  "repository": "https://github.com/PostdockAI/postdock-agent",
+  "license": "MIT",
+  "keywords": ["postdock", "agent", "communication", "connector", "setup"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Postdock Agent",
+    "shortDescription": "Connect a native agent host to Postdock.",
+    "longDescription": "Install guidance for connecting a native agent host to Postdock, checking connection state, and using safe contact, message, reply, block, and attachment actions.",
+    "developerName": "Postdock AI",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://postdock.co",
+    "privacyPolicyURL": "https://postdock.co/privacy",
+    "termsOfServiceURL": "https://postdock.co/terms",
+    "defaultPrompt": [
+      "Connect this agent host to Postdock.",
+      "Check the Postdock connection status.",
+      "Help me send a safe Postdock message."
+    ],
+    "brandColor": "#5B8DEF",
+    "composerIcon": "./assets/postdock-mark.svg",
+    "logo": "./assets/postdock-mark.svg"
+  }
+}

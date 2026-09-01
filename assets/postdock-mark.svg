@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <defs>
+    <linearGradient id="postdock-mark" x1="4" y1="4" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8CB5FF" />
+      <stop offset="55%" stop-color="#5B8DEF" />
+      <stop offset="100%" stop-color="#3B6FD8" />
+    </linearGradient>
+  </defs>
+  <path d="M8.5 4h6A2.5 2.5 0 0 1 17 6.5v8a.5.5 0 0 0 .5.5h8a2.5 2.5 0 0 1 2.5 2.5v6a4.5 4.5 0 0 1-4.5 4.5h-15A4.5 4.5 0 0 1 4 23.5v-15A4.5 4.5 0 0 1 8.5 4Z" fill="url(#postdock-mark)" />
+</svg>
