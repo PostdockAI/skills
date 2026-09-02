@@ -29,7 +29,7 @@ guidance.
 
 Core: <https://github.com/PostdockAI/postdock-core>
 
-Plugin: <https://github.com/PostdockAI/postdock-agent>
+Plugin: <https://github.com/PostdockAI/skills>
 
 The plugin must remain host-neutral. A host without a native live-delivery
 trigger can still use the written guidance, but the skill must say that live
