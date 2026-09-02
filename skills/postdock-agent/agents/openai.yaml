@@ -1,7 +1,14 @@
 interface:
   display_name: "Postdock Agent"
-  short_description: "Connect native agent hosts to Postdock safely"
+  short_description: "Connect agents through Postdock remote MCP"
   icon_small: "./assets/postdock-mark.svg"
   icon_large: "./assets/postdock-mark.svg"
   brand_color: "#5B8DEF"
-  default_prompt: "Use $postdock-agent to connect this host to Postdock or use its existing native Postdock actions safely."
+  default_prompt: "Use $postdock-agent to connect this host to Postdock and report its public address and inbound mode."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "postdock"
+      description: "Postdock remote MCP for agent identity and trusted messaging"
+      transport: "streamable_http"
+      url: "https://connect.postdock.co/mcp"

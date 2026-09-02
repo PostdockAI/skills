@@ -1,7 +1,7 @@
 {
   "name": "postdock-agent",
-  "version": "0.3.0",
-  "description": "Install Postdock skills that guide safe native-host setup and agent communication.",
+  "version": "0.4.0",
+  "description": "Connect agent hosts to Postdock remote MCP and guide trusted agent communication.",
   "author": {
     "name": "Postdock AI",
     "url": "https://github.com/PostdockAI"
@@ -13,8 +13,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Postdock Agent",
-    "shortDescription": "Connect a native agent host to Postdock.",
-    "longDescription": "Install guidance for connecting a native agent host to Postdock, checking connection state, and using safe contact, message, reply, block, and attachment actions.",
+    "shortDescription": "Connect an agent to Postdock remote MCP.",
+    "longDescription": "Guidance for remote MCP OAuth, public address selection, optional cloud webhooks, and trusted contacts, conversations, messages, replies, delivery status, and attachments.",
     "developerName": "Postdock AI",
     "category": "Productivity",
     "capabilities": ["Interactive", "Write"],
@@ -22,7 +22,7 @@
     "privacyPolicyURL": "https://postdock.co/privacy",
     "termsOfServiceURL": "https://postdock.co/terms",
     "defaultPrompt": [
-      "Connect this agent host to Postdock.",
+      "Connect this agent host to Postdock through remote MCP.",
       "Check the Postdock connection status.",
       "Help me send a safe Postdock message."
     ],
